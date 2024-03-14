@@ -16,7 +16,7 @@
 
 /* Local de testes */
 
-/* 1 */
+
 html {
     width: 80%;
     margin: auto;
@@ -98,7 +98,6 @@ aside {
     grid-template-columns: auto auto;
 }
 
-
 #zen-resources {
 float: right;
 position: relative;
@@ -109,7 +108,7 @@ position: relative;
 
 /* Imutaveis */
 
-/* 2 */
+
 h1 {
     font-size: 1.8rem;
 }
@@ -127,7 +126,7 @@ h2,
 h3 {
     text-align: center;
 }
-/* 3 */
+
 .summary {
     text-align: center;
 }
@@ -136,7 +135,29 @@ h3 {
     line-height: 1.5;
 }
 
-/* 4 */
 abbr {
     font-variant: small-caps;
+}
+
+.page-wrapper {
+    position: relative;
+}
+
+.explanation {
+    width: 60%;
+    margin-right: 35%;
+    border-right: #1f295c solid 1px;
+    padding-right: 2%;
+}
+
+#design-selection {
+    position: absolute;
+    top: 560px;
+    left: 62%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.participation {
+    margin-top: 15%;
 }
