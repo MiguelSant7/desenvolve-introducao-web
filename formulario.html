@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pesquisa de Satisfação</title>
+</head>
+
+<body>
+    <header>
+        <h1>Formuário-Pesquisa de Satisfação</h1>
+    </header>
+    <form action="..." method="post">
+        <p>
+            <label for="Nome">Nome:</label>
+            <input type="text" placeholder="Nome" id="Nome">
+        </p>
+        <p>
+            <label for="Email">E-mail:</label>
+            <input type="email" placeholder="Email" id="Email">
+        </p>
+        <p>
+            <Label for="Telefone">Telefone:</Label>
+            <input type="tel" placeholder="Contato" id="Telefone">
+        </p>
+        <p>
+        <h2>Algumas perguntas:</h2>
+        </p>
+        <div>
+            <p>
+            <h3>Você aprendeu JavaScript?</h3>
+            <label for="Sim">Sim</label>
+            <input type="radio" id="Sim" name="Pesquisa1">
+
+            <label for="Nâo" form="Sim">Não</label>
+            <input type="radio" id="Não" name="Pesquisa1">
+            </p>
+        </div>
+        <div> 
+            
+            <p>
+            <h3>Voce aprendeu python?</h3>
+            <label for="Sim">Sim</label>
+            <input type="radio" id="Sim" name="Pesquisa2">
+            <label for="Nâo">Não</label>
+            <input type="radio" id="Não" name="Pesquisa2">
+            </p>
+        </div>
+        <p>
+        <h3>Qual seu estado?</h3>
+        <Label for="Estado">UF</Label>
+        <select id="Estado">
+            <option>Minas Gerais</option>
+            <option>São Paulo</option>
+            <option>Rio de Janeiro</option>
+            <option>Amaonas</option>
+            <option>Espírito Santo</option>
+            <option>Brasília</option>
+        </select>
+        </p>
+        <input type="checkbox" id="Permissão">
+        <label for="Permissão">Concordar e prosseguir</label><br>
+        
+    
+        <input type="submit" value="Prosseguir">
+    </form>
+
+</body>
+
+</html>
